@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MY APP</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    </style>
+</head>
+<body>
+  <h1> May Node and Express be with you. </h1>
+  <form action="/users" method="POST">
+    <input type="text" placeholder="name" name="name">
+    <button type="submit">Search</button>
+  </form>
+  <h2> Users </h2>
+
+  <table>
+    <thead>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+    </thead>
+    <% for(var i = 0; i < searchUsers.length; i++) {%>
+        <tr>
+            <td><%= searchUsers[i].name %></td>
+            <td><%= searchUsers[i].age %></td>
+            <td><%= searchUsers[i].gender %></td>                                                       
+        </tr> 
+    <% } %>  
+  </table>
+
+      <div id="message"></div>
+
+      <script src="/jquery.min.js"></script>
+      <script src="/main.js"></script>
+</body>
+</html>

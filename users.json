@@ -1,0 +1,27 @@
+[
+    {
+      "age": 23,
+      "name": "Bird Ramsey",
+      "gender": "male"
+    },
+    {
+      "age": 31,
+      "name": "Lillian Burgess",
+      "gender": "female"
+    },
+    {
+      "age": 34,
+      "name": "Kristie Cole",
+      "gender": "female"
+    },
+    {
+      "age": 30,
+      "name": "Leonor Cross",
+      "gender": "female"
+    },
+    {
+      "age": 28,
+      "name": "Marsh Mccall",
+      "gender": "male"
+    }
+  ]
